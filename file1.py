@@ -15,3 +15,5 @@ height = st.slider("select the Height",100,500)
 width = st.slider("select the width",100,500)
 
 img = cv2.resize(img2,(width,height))
+
+st.image(img)
