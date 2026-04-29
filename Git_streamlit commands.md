@@ -1,4 +1,4 @@
-#### Git Bash user name, email setup
+#### **Git Bash user name, email setup**
 
 
 
@@ -6,13 +6,7 @@
 
 veera@Shannu MINGW64 \~
 
-$ git config --global user.name hannu
-
-ss
-
-veera@Shannu MINGW64 \~
-
-$ git config --global user.name "narayanareddy999
+$ git config --global user.name "narayanareddy999 **--> Toa add username to git bash (global)**
 
 "
 
@@ -22,7 +16,7 @@ veera@Shannu MINGW64 \~
 
 $ git config --global user.email "narayanareddy7129@gmail.com
 
-"
+" **--> To add email to git bash (global)** 
 
 
 
@@ -42,7 +36,7 @@ narayanareddy7129@gmail.com
 
 
 
-laksh@Narayana MINGW64 \~
+laksh@Narayana MINGW64 \~ 
 
 
 
@@ -52,11 +46,7 @@ laksh@Narayana MINGW64 \~
 
 
 
-
-
-
-
-
+#### **Streamlit**
 
 
 
@@ -66,25 +56,33 @@ C:\\Users\\laksh\\ML\\streamlit>**python --version**
 
 Python 3.11.3
 
-
+&#x09;
 
 C:\\Users\\laksh\\ML\\streamlit>**^Z  (crt+z)	--> To get out from python**
 
-&#x20;
-
-1. C:\\Users\\laksh\\ML\\streamlit>**python -m venv myenv(name) --> To Create Virtual Environment(venv)**
 
 
+###### **To Create Virtual Environment(venv)**
 
-C:\\Users\\laksh\\ML\\streamlit>**myenv\\Scripts\\activate --> To activate environment**
+1. C:\\Users\\laksh\\ML\\streamlit>**python -m venv myenv(name)**
 
 
 
-(myenv) C:\\Users\\laksh\\ML\\streamlit>**deactivate     --> to exit from (myenv)**
+###### **To activate environment**
+
+C:\\Users\\laksh\\ML\\streamlit>**myenv\\Scripts\\activate**
 
 
 
-(myenv) C:\\Users\\laksh\\ML\\streamlit>**streamlit run file\_name.py  --> To run the python file**
+###### **to exit from (myenv)**
+
+(myenv) C:\\Users\\laksh\\ML\\streamlit>**deactivate**   
+
+
+
+###### **To run the python file**
+
+(myenv) C:\\Users\\laksh\\ML\\streamlit>**streamlit run file\_name.py**
 
 
 
@@ -92,13 +90,19 @@ C:\\Users\\laksh\\ML\\streamlit>**myenv\\Scripts\\activate --> To activate envir
 
 
 
+================================================================ 
+
 
 
 ##### **commands in git(versions)**
 
 
 
-**--> git init (creates git repository in the myenv)**
+###### **creates git repository in the myenv**
+
+**--> git init** 
+
+
 
 **From now the git will tracks changes in the file.**
 
@@ -112,27 +116,103 @@ C:\\Users\\laksh\\ML\\streamlit>**myenv\\Scripts\\activate --> To activate envir
 
 
 
-**--> git status (gives information related file and folder)**
+###### **Gives information related file and folder**
+
+**--> git status**
 
 
 
+###### **To track changes**
+
+**--> git add file\_name.py**
 
 
 
+###### **Commit/saving the changes permanently**
+
+**--> git commit -m 'version\_name'** 
 
 
 
-**--> git add file\_name.py** (to track changes)
+###### **To check all the commits**
+
+**--> git log --online**
 
 
 
-**--> git commit -m 'version\_name' (commit/saving the changes permanently)**
-
-
-
-**--> git log --online** (to check all the commits )
-
-
+###### **changes the code corresponding to the version**
 
 **--> git checkout <commit id>** (changes the code corresponding to the version)
+
+
+
+
+
+&#x20;
+
+##### **TO PUSH ALL FILES INTO GITHUB** 
+
+
+
+###### **To change to another file**
+
+**--> git checkout  master or (commit id)**
+
+
+
+**git remote add origin https://github.com/narayanareddy7129/Image\_Editing.git (new repository url)** 
+
+
+
+
+
+**git remote -v (to check in which repository you are in)**
+
+
+
+(myenv) C:\\Users\\laksh\\ML\\streamlit>git remote -v
+
+
+
+**output:**
+
+
+
+origin  https://github.com/narayanareddy7129/Image\_Editing.git (fetch)
+
+origin  https://github.com/narayanareddy7129/Image\_Editing.git (push)
+
+
+
+
+
+###### **TO PUSH ALL FILES INTO REPOSITORY**
+
+&#x20;
+
+**step-1: (Goes to main branch)**
+
+**git checkout master**  
+
+
+
+**Step-2: (to name the main branch as main**)
+
+**git branch -M main** 
+
+
+
+**Step-3: (Push)**
+
+**git push -u origin main**
+
+
+
+
+
+**========================================================** 
+
+
+
+
 
